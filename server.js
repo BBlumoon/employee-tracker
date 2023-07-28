@@ -114,14 +114,14 @@ function listEmployees() {
 }
 
 async function promptNewDepartment() {
-  const { name, role, department } = await inquirer.prompt([
+  const { name } = await inquirer.prompt([
     {
       type: 'input',
       name: 'name',
       message: 'Enter department name:',
     },
   ]);
-  return { name, role, department };
+  return { name };
 }
 
 function addDepartment(department) {
@@ -147,7 +147,7 @@ function listDepartments() {
 }
 
 async function promptNewRoles() {
-  const { name, role, department } = await inquirer.prompt([
+  const { title, salary, department_id } = await inquirer.prompt([
     {
       type: 'input',
       name: 'title',
@@ -164,7 +164,7 @@ async function promptNewRoles() {
       message: 'Enter role department:',
     },
   ]);
-  return { name, role, department };
+  return { title, salary, department_id };
 }
 
 function addRoles(role) {

@@ -1,6 +1,7 @@
 # employee-tracker
 
 ## Description
+In this project I created an employee tracker which can add and show employees, departments, and roles. This project utilizes mysql to create a database which contains tables with the information from each.
 
 ## Acceptance Criteria
 GIVEN a command-line application that accepts user input
@@ -20,3 +21,6 @@ WHEN I choose to add an employee
 THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
+
+## Link
+https://watch.screencastify.com/v/ghuhlNnf4MOl5mC322rn
